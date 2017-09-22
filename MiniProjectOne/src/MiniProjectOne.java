@@ -7,7 +7,7 @@ public class MiniProjectOne {
 		// TODO Auto-generated method stub
 		victoryIsMine();
 
-	}
+	} 
 	public static void victoryIsMine() {
 		// Prints out Victory is mine 
 		System.out.println("//////////////////////");
