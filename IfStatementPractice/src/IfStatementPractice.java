@@ -13,6 +13,7 @@ public class IfStatementPractice {
 		quotient=quotientOfTwoNums(num1,num2);
 		remainder=remainderOfTwonums(num1,num2);
 		phoneCallPrice=phoneCallPricing(phoneCallMinutes);
+		
 		System.out.print("The largest number is: " + largestNum);
 		System.out.print("\nThe quotient of the numbers is: " + quotient);
 		System.out.print("\nThe remainder of the numbers is: " + remainder);
@@ -55,9 +56,11 @@ public class IfStatementPractice {
 		return remainder;
 	}
 	public static double phoneCallPricing(double normalMinutes) {
+		//Declares the needed variables
 		double overMinutesPrice;
 		double normalMinutesPrice=1.15;
 		double totalPrice;
+		//Calculates the pricing of the phone call
 		if (normalMinutes>2){
 			overMinutesPrice= (normalMinutes-2) * .50;
 			totalPrice=overMinutesPrice+normalMinutesPrice;
