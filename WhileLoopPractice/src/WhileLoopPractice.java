@@ -4,6 +4,7 @@ public class WhileLoopPractice {
 	public static void main(String[] args) {
 		int liftoffCntr=10;
 		int oddCntr = 1;
+		int stars = 5;
 		//loop to print liftoff sequence
 		while (liftoffCntr>=1) {
 			System.out.print(liftoffCntr + "...");
@@ -18,12 +19,11 @@ public class WhileLoopPractice {
 			}
 			oddCntr++;
 		}
-		stars();
+		stars(stars);
 
 
 	}
-		public static void stars() {
-			int stars=8;
+		public static void stars(int stars) {
 			while (stars > 0) {
 				System.out.print("*");
 			stars--;
